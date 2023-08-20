@@ -1,0 +1,51 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  height: 40vh;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.card {
+  transition: transform 0.3s ease;
+  background-color: aliceblue;
+}
+.card:hover {
+  transform: scale(1.05); 
+  background-color: #8CC7EE;
+  color:white;
+}
+
+.list-group-item{
+  margin: 0px;
+  text-align: left;
+font-weight: 500;
+font-size: 25px ;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+list-item{
+  font-weight: 500;
+font-size: 20px ;
+}
+
+.header-img{
+  border-radius: 7px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+}
+.course-title
+{
+  background-color: #ff4c68;
+}
